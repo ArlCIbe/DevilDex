@@ -1,0 +1,2 @@
+# DevilDex
+ devil fruit codex
