@@ -1,0 +1,41 @@
+#Node
+node_modules/
+npm-debug.log*
+
+#build output
+build/
+dist/
+
+#environment file
+.env
+
+#IDE-specific
+.vscode
+
+#OS-specific
+Thumbs.db
+
+# Python bytecode files
+__pycache__/
+*.py[cod]
+
+#virtual environment
+venv/
+
+#PostgreSQL dump files
+*.sql
+*.bak
+
+#for generated assets
+/generated_images/
+*.png
+*.jpg
+
+#custom devil fruit images
+/custom_images/
+
+#temp files
+*.tmp
+
+#dev log
+*.log
