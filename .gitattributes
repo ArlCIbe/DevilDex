@@ -1,2 +1,15 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+#enforces consistent line endings
+*text=auto
+
+#ensures json files are treated as text
+*.json text
+
+#treats images as binary
+*.jpg binary
+*.gif binary
+*.png binary
+
+# exclude the following from archives
+/node_modules export-ignore
+/dist export-ignore
+*.log export-ignore

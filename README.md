@@ -1,2 +1,1 @@
 # DevilDex
- devil fruit codex
