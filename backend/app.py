@@ -1,5 +1,7 @@
 from flask import Flask, jsonify, request 
-#Flask initializes app and runs server, jsonify converts Python data structures into JSON, request holds details of incoming HTTP requests
+# Flask initializes app and runs server
+# jsonify converts Python data structures into JSON
+# request holds details of incoming HTTP requests
 
 app = Flask(__name__) #instantiates Flask app
 
@@ -51,5 +53,5 @@ if __name__ == '__main__':
 #Decorators wrap another function to extend the behaviour of the wrapped function w/o permanently changing it.
 #def indicate function definition
 #global keyword declares that variable inside a function is defined outside the function; allows functions to be modified directly and enables management of shared state across functions--should be used sparingly
-#genertor expressions iterator over each item in a collection and returns 1s item w/ matching specification or None if not
+#generator expressions iterator over each item in a collection and returns 1s item w/ matching specification or None if not
 # None is a special keyword in Python that represents the absence of a value or a null value, and it’s always spelled with a capital N. Using lowercase (none) would result in an error because Python would treat it as an undefined variable or name.
