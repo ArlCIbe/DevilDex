@@ -1,41 +1,68 @@
-#Node
-node_modules/
-npm-debug.log*
+# =============================
+# General
+# =============================
 
-#build output
-build/
-dist/
-
-#environment file
+# Environment files
 .env
 
-#IDE-specific
-.vscode
-
-#OS-specific
+# OS-specific files
 Thumbs.db
+.DS_Store
 
-# Python bytecode files
+# IDE-specific files
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+
+# =============================
+# Backend
+# =============================
+
+# Python bytecode
 __pycache__/
 *.py[cod]
 
-#virtual environment
+# Virtual environment
 venv/
 
-#PostgreSQL dump files
+# PostgreSQL dump files
 *.sql
 *.bak
 
-#for generated assets
+# Test coverage and reports
+htmlcov/
+.coverage
+*.cover
+
+# =============================
+# Frontend
+# =============================
+
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+
+# Build output
+frontend/build/
+frontend/dist/
+
+# Generated static assets
 /generated_images/
 *.png
 *.jpg
 
-#custom devil fruit images
+# =============================
+# Project-Specific
+# =============================
+
+# Custom Devil Fruit images
 /custom_images/
 
-#temp files
-*.tmp
-
-#dev log
-*.log
+# Global assets and cache
+globalassets/cache/
+globaltests/cache/
