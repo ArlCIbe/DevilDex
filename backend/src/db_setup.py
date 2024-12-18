@@ -8,6 +8,8 @@ load_dotenv() #loads env variables from .env file
 
 DATABASE_URL = os.getenv("DATABASE_URL") #retrieves db URL from .env file
 
+print(DATABASE_URL)
+
 engine = create_engine(DATABASE_URL) #establishes connection to DD db
 
 #sessionmaker() parameters dictate the way the session interacts w/ the db
