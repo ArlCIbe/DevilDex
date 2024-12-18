@@ -10,4 +10,7 @@ DATABASE_URL = os.getenv("DATABASE_URL")
 engine = create_engine(DATABASE_URL)
 
 try:
-    with engine.connect() as connection:
+    with engine.connect() as connection: #creates db connection and ensures connection is properly closed
+        print('Connected to Devil Fruit database successfully!')
+except Exception as e: #handles the exception
+    print('Unable to connect to Devil Fruit database.')
