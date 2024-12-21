@@ -11,7 +11,7 @@ print(DATABASE_URL)
 try:
     with psycopg.connect(DATABASE_URL) as conn: #creates db connection; with ensures connection gets closed properly & conn object enables interaction w/ db
         with conn.cursor() as cur: #creates cur object; used to execute SQL queries against the db
-            cur.execute('SELECT 1 FROM devil_fruits') #returns the # 1
+            cur.execute('SELECT 1 FROM devilfruits') #returns the number 1
             result = cur.fetchall() #retrieves the 1st result from the query
             print(f"Query result: {result} - Connected to Devil Fruit database successfully!")
 except Exception as e: #handles the exception
