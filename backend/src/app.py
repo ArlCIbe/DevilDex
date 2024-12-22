@@ -5,7 +5,7 @@ from flask import Flask, jsonify, request
 
 app = Flask(__name__) #instantiates Flask app
 
-allDevilFruits
+allDevilFruits = []
 
 #root endpoint
 @app.route('/') #decorator
