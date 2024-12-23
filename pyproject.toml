@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "DevilDex"
+version = "0.1.0"
+description = "DevilDex is a Python project with a React frontend that organizes and catalogs existing and custom Devil Fruit data by using PostgreSQL for advanced querying and seamless database management."
+license = "Proprietary"
+authors = ["ibLindo <arlcibe@outlook.com>"]
+readme = ["DevilDex/frontend/README.md", "DevilDex/README.md"]
+repository = "github.com/ArlCIbe/DevilDex"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+blinker = "1.9.0"
+click = "8.1.7"
+colorama = "0.4.6"
+flask = "3.1.0"
+flask-cors = "5.0.0"
+itsdangerous = "2.2.0"
+jinja2 = "3.1.4"
+markupsafe = "3.0.2"
+typing_extensions = "4.12.2"
+tzdata = "2024.2"
+werkzeug = "3.1.3"
+
+[tool.poetry.dev-dependencies]
+psycopg = {version = "3.2.3", extras = ["binary", "pool"]}
+python-dotenv = "1.0.1"
+sqlalchemy = "2.0.36"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
