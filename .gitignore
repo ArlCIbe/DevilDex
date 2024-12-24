@@ -27,8 +27,8 @@ Thumbs.db
 __pycache__/
 *.py[cod]
 
-# Virtual environment
-venv/
+#Poetry dependencies
+poetry.lock
 
 # PostgreSQL dump files
 *.sql
@@ -55,6 +55,7 @@ frontend/dist/
 /generated_images/
 *.png
 *.jpg
+*.gif
 
 # =============================
 # Project-Specific
