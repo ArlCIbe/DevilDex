@@ -26,6 +26,9 @@ psycopg = {version = "3.2.3", extras = ["binary", "pool"]}
 python-dotenv = "1.0.1"
 sqlalchemy = "2.0.36"
 
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.4"
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
